@@ -1,4 +1,4 @@
-
+ 
 SELECT d.subject_id, d.hadm_id, i.stay_id, d.seq_num, d.icd_version, d.icd_code, icd.long_title as diagnosis_name,
        a.deathtime, a.marital_status, a.insurance, first_diag.first_diagnosis_name, first_diag.first_diagnosis_code
 FROM mimiciv_hosp.diagnoses_icd d
